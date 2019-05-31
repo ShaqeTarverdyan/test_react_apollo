@@ -6,8 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 import { ApolloProvider } from 'react-apollo';
 import { Provider } from 'react-redux';
-import client from './Test2/client';
-import store from './Test2/store';
+import client from './Test2/Redux/client';
+import store from './Test2/Redux/store/store';
 
 ReactDOM.render(
     <ApolloProvider client={client}>

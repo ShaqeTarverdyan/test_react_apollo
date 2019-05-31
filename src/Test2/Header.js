@@ -16,6 +16,9 @@ class Header extends React.Component {
                     <li>
                         <Link to='/addUsers'>AddUsers</Link>
                     </li>
+                    <li>
+                        <Link to='/techsith_redux'>Techsith_redux</Link>
+                    </li>
                 </ul>
 
             </div>
